@@ -1,0 +1,7 @@
+Code-Review+2: Brian Carlstrom <bdc@google.com>
+Verified+1: Nicolas Geoffray <ngeoffray@google.com>
+Submitted-by: Nicolas Geoffray <ngeoffray@google.com>
+Submitted-at: Thu, 12 Jun 2014 07:45:45 +0000
+Reviewed-on: https://android-review.googlesource.com/97673
+Project: platform/manifest
+Branch: refs/heads/master-art-host
