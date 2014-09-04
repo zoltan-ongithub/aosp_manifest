@@ -22,10 +22,10 @@
   <project path="external/emma" name="platform/external/emma" revision="master"/>
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" />
+  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" revision="master" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" revision="master" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" revision="master" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="master" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
