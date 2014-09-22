@@ -54,7 +54,6 @@
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
@@ -142,7 +141,6 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/iputils" name="platform/external/iputils" />
-  <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
@@ -171,10 +169,8 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
-  <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libunwind" name="platform/external/libunwind" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
@@ -211,11 +207,9 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
-  <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
