@@ -1,0 +1,7 @@
+Code-Review+2: Brian Carlstrom <bdc@google.com>
+Verified+1: Brian Carlstrom <bdc@google.com>
+Submitted-by: Brian Carlstrom <bdc@google.com>
+Submitted-at: Sat, 11 Oct 2014 07:10:04 +0000
+Reviewed-on: https://android-review.googlesource.com/110589
+Project: platform/manifest
+Branch: refs/heads/master-art-host
