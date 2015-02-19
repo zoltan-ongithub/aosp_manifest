@@ -1,0 +1,7 @@
+Code-Review+2: Nicolas Geoffray <ngeoffray@google.com>
+Verified+1: Sebastien Hertz <shertz@google.com>
+Submitted-by: Sebastien Hertz <shertz@google.com>
+Submitted-at: Thu, 19 Feb 2015 11:08:41 +0000
+Reviewed-on: https://android-review.googlesource.com/133461
+Project: platform/manifest
+Branch: refs/heads/master-art-host
