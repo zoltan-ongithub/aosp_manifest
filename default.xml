@@ -36,6 +36,9 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxrt" name="platform/external/libcxxrt" />
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
+  <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
@@ -46,6 +49,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk"/>
   <project path="external/vixl" name="platform/external/vixl" />
   <project path="external/vogar" name="platform/external/vogar" />
+  <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
