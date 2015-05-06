@@ -1,0 +1,7 @@
+Code-Review+2: Ying Wang <wangying@android.com>
+Verified+1: Colin Cross <ccross@google.com>
+Submitted-by: Colin Cross <ccross@google.com>
+Submitted-at: Tue, 05 May 2015 23:59:05 +0000
+Reviewed-on: https://android-review.googlesource.com/149426
+Project: platform/manifest
+Branch: refs/heads/master-soong
