@@ -1,0 +1,7 @@
+Code-Review+2: Elliott Hughes <enh@google.com>
+Verified+1: Dan Albert <danalbert@google.com>
+Submitted-by: Dan Albert <danalbert@google.com>
+Submitted-at: Thu, 25 Jun 2015 22:26:14 +0000
+Reviewed-on: https://android-review.googlesource.com/156773
+Project: platform/manifest
+Branch: refs/heads/master-ndk
