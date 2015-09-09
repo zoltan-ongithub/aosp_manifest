@@ -1,0 +1,8 @@
+Code-Review+1: Chaoren Lin <chaorenl@google.com>
+Verified+1: Bill Rassieur <rassb@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Submitted-by: Bill Rassieur <rassb@google.com>
+Submitted-at: Wed, 09 Sep 2015 23:48:22 +0000
+Reviewed-on: https://android-review.googlesource.com/169927
+Project: platform/manifest
+Branch: refs/heads/lldb-master-dev
