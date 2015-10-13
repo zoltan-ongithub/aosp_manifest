@@ -14,6 +14,7 @@
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="dalvik" name="platform/dalvik" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
