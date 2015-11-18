@@ -1,0 +1,8 @@
+Code-Review+1: Dan Albert <danalbert@google.com>
+Code-Review+2: Stephen Li <stephenli@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Wed, 18 Nov 2015 19:13:08 +0000
+Reviewed-on: https://android-review.googlesource.com/183038
+Project: platform/manifest
+Branch: refs/heads/llvm
