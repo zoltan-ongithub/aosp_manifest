@@ -1,0 +1,8 @@
+Code-Review+2: Pavel Labath <labath@google.com>
+Code-Review+2: Oleksiy Vyalov <ovyalov@google.com>
+Verified+1: Chaoren Lin <chaorenl@google.com>
+Submitted-by: Chaoren Lin <chaorenl@google.com>
+Submitted-at: Thu, 14 Jan 2016 19:00:26 +0000
+Reviewed-on: https://android-review.googlesource.com/196372
+Project: platform/manifest
+Branch: refs/heads/lldb-master-dev
