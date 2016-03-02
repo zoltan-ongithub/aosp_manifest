@@ -9,17 +9,17 @@
            sync-j="4" />
 
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="external/shaderc/glslang" name="platform/external/shaderc/glslang" />
-  <project path="external/shaderc/shaderc" name="platform/external/shaderc/shaderc" />
-  <project path="external/shaderc/spirv-tools" name="platform/external/shaderc/spirv-tools" />
-  <project path="ndk" name="platform/ndk" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs,presubmit" />
+  <project path="external/shaderc/glslang" name="platform/external/shaderc/glslang" groups="presubmit" />
+  <project path="external/shaderc/shaderc" name="platform/external/shaderc/shaderc" groups="presubmit" />
+  <project path="external/shaderc/spirv-tools" name="platform/external/shaderc/spirv-tools" groups="presubmit" />
+  <project path="ndk" name="platform/ndk" groups="presubmit" />
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
   <project path="prebuilts/clang/windows-x86/host/3.6" name="platform/prebuilts/clang/host/windows-x86" />
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" />
-  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="presubmit" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="presubmit" />
+  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" groups="presubmit" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -35,22 +35,22 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="dev" groups="pdk" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="dev" groups="pdk,presubmit" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
-  <project path="toolchain/binutils" name="toolchain/binutils" />
-  <project path="toolchain/build" name="toolchain/build" />
-  <project path="toolchain/cloog" name="toolchain/cloog" />
-  <project path="toolchain/expat" name="toolchain/expat" />
-  <project path="toolchain/gcc" name="toolchain/gcc" />
-  <project path="toolchain/gdb" name="toolchain/gdb" />
-  <project path="toolchain/gmp" name="toolchain/gmp" />
-  <project path="toolchain/isl" name="toolchain/isl" />
-  <project path="toolchain/mpc" name="toolchain/mpc" />
-  <project path="toolchain/mpfr" name="toolchain/mpfr" />
-  <project path="toolchain/ppl" name="toolchain/ppl" />
-  <project path="toolchain/python" name="toolchain/python" />
-  <project path="toolchain/sed" name="toolchain/sed" />
-  <project path="toolchain/yasm" name="toolchain/yasm" />
+  <project path="toolchain/binutils" name="toolchain/binutils" groups="presubmit" />
+  <project path="toolchain/build" name="toolchain/build" groups="presubmit" />
+  <project path="toolchain/cloog" name="toolchain/cloog" groups="presubmit" />
+  <project path="toolchain/expat" name="toolchain/expat" groups="presubmit" />
+  <project path="toolchain/gcc" name="toolchain/gcc" groups="presubmit" />
+  <project path="toolchain/gdb" name="toolchain/gdb" groups="presubmit" />
+  <project path="toolchain/gmp" name="toolchain/gmp" groups="presubmit" />
+  <project path="toolchain/isl" name="toolchain/isl" groups="presubmit" />
+  <project path="toolchain/mpc" name="toolchain/mpc" groups="presubmit" />
+  <project path="toolchain/mpfr" name="toolchain/mpfr" groups="presubmit" />
+  <project path="toolchain/ppl" name="toolchain/ppl" groups="presubmit" />
+  <project path="toolchain/python" name="toolchain/python" groups="presubmit" />
+  <project path="toolchain/sed" name="toolchain/sed" groups="presubmit" />
+  <project path="toolchain/yasm" name="toolchain/yasm" groups="presubmit" />
 
 </manifest>
