@@ -8,6 +8,17 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- Linaro Changes for OP TEE  -->
+  <remote  name="github"
+           fetch=".."
+           review="https://github.com/" />
+
+  <project path="device/linaro/hikey" name="kuscsik/device-linaro-hikey" remote="github" />
+  <project path="device/linaro/hikey-kernel" name="kuscsik/device-linaro-hikey-kernel" clone-depth="1" remote="github" />
+  
+  <project path="external/optee_client" name="kuscsik/optee_client" branch="android_fix" remote="github" />
+  <project path="external/optee_hello_world" name="kuscsik/lcu14_optee_hello_world" branch="master" remote="github" />
+  <!-- End of Linaro changes -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -57,8 +68,6 @@
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
-  <project path="device/linaro/hikey" name="device/linaro/hikey" />
-  <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
