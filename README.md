@@ -14,7 +14,7 @@ Getting the source code:
 ```
 $ repo init -u https://github.com/kuscsik/aosp_manifest -b  hikey_optee
 $ repo sync
-``
+```
 
 Selecting the target platform
 
