@@ -17,6 +17,11 @@
   
   <project path="external/optee_client" name="kuscsik/optee_client" revision="android_fix" remote="github" />
   <project path="external/optee_hello_world" name="kuscsik/lcu14_optee_hello_world" branch="master" remote="github" />
+
+  <project path="optee" name="kuscsik/optee_android_tools" branch="master" remote="github" />
+  <project path="optee/optee_os" name="OP-TEE/optee_os" branch="master" remote="github" />
+  <project path="optee/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="kuscsik/prebuilt_gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" branch="master" remote="github" />
+
   <!-- End of Linaro changes -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
