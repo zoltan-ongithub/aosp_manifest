@@ -16,6 +16,13 @@ $ repo init -u https://github.com/kuscsik/aosp_manifest -b  hikey_optee
 $ repo sync
 ```
 
+Get the vendor binaries
+```
+$ wget https://dl.google.com/dl/android/aosp/linaro-hikey-20160226-67c37b1a.tgz
+$ tar xzf linaro-hikey-20160226-67c37b1a.tgz
+$ ./extract-linaro-hikey.sh
+```
+
 Selecting the target platform
 
 ```
