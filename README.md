@@ -45,3 +45,10 @@ $ make -j32
 # 4GB emmc version of Hikey
 $ make -j32 TARGET_USERDATAIMAGE_4GB=true
 ```
+
+Flashing the image
+Select special bootloader mode by linking J15 1-2 and 3-4 pins (for details, refer to the HiKey User Guide).
+Connect USB to PC to get ttyUSB device.
+```
+$ ./device/linaro/hikey/installer/flash-all.sh /dev/ttyUSB0 [4g]
+```
