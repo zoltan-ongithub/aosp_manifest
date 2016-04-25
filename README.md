@@ -52,6 +52,6 @@ Flashing the image:
 Select special bootloader mode by linking J15 1-2 and 3-4 pins (for details, refer to the HiKey User Guide).
 Connect USB to PC to get ttyUSB device.
 ```
-$ cd ./device/linaro/hikey/installer/
-# sudo flash-all.sh /dev/ttyUSB0 [4g]
+$ cd device/linaro/hikey/installer/
+# sudo ./flash-all.sh /dev/ttyUSB0 [4g]
 ```
