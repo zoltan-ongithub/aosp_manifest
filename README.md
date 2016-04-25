@@ -58,6 +58,6 @@ $ cd device/linaro/hikey/installer/
 $ sudo ./flash-all.sh /dev/ttyUSB0
 
 # For 4GB emmc:
-$ sudo ./flash-all.sh /dev/ttyUSB0 [4g]
+$ sudo ./flash-all.sh /dev/ttyUSB0 4g
 
 ```
