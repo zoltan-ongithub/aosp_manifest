@@ -53,5 +53,11 @@ Select special bootloader mode by linking J15 1-2 and 3-4 pins (for details, ref
 Connect USB to PC to get ttyUSB device.
 ```
 $ cd device/linaro/hikey/installer/
-# sudo ./flash-all.sh /dev/ttyUSB0 [4g]
+
+# For 8GB emmc:
+$ sudo ./flash-all.sh /dev/ttyUSB0
+
+# For 4GB emmc:
+$ sudo ./flash-all.sh /dev/ttyUSB0 [4g]
+
 ```
